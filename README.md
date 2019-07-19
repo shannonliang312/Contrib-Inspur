@@ -14,3 +14,10 @@ Patches to ./bmcweb
 
 ## OR-web
 Web browser interface.
+How to compile:
+
+````
+cd OR-web
+npm install
+scp -r ./dist/* root@bmcIP:/usr/share/www/
+````
